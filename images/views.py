@@ -4,4 +4,4 @@ from django.shortcuts import render
   
 
 def Images(request):
-    return render (request,'index.html')
+    return render (request,'base.html')

@@ -1,2 +1,13 @@
-{% extends 'base.html'%}
+{% comment %} {% extends 'base.html'%} {% endcomment %}
+
+<center>
 <h1>Gallery</h1>
+</center>
+<body>
+{% for images in image%}
+{{image.title}}
+{{image.description}}
+{{image.image.url}}
+{% endfor%}
+</body>
+   

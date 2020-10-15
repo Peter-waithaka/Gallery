@@ -17,10 +17,12 @@ from django.contrib import admin
 from django.conf.urls import include,url,static
 from django.conf.urls.static import static
 from django.conf import settings
+from images import views
 
 
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^',include('images.urls'))
+    url('^admin/', admin.site.urls),
+    # url(r'^',include('images.urls'))
+    url('' ,views.Images)
 ]

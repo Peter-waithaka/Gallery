@@ -81,8 +81,8 @@ WSGI_APPLICATION = 'gallery.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'galla',
+  'ENGINE': 'django.db.backends.postgresql_psycopg2',        
+  'NAME': 'galla',
         'USER': 'moringa',
     'PASSWORD':'Access',
     }

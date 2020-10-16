@@ -22,7 +22,6 @@ from images import views
 
 
 urlpatterns = [
-    url('^admin/', admin.site.urls),
-    # url(r'^',include('images.urls'))
-    url('' ,views.Images)
+    url(r'^admin/', admin.site.urls),
+    url(r'', include('images.urls')),
 ]

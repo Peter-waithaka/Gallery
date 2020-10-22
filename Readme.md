@@ -1,7 +1,7 @@
 # Gallery
 * app to view images
 ## Author
-### PETER KIBUIthon
+### PETER KIBUI
 
 ### TECH USED
 * python
